@@ -1,4 +1,6 @@
 language: python
+python:
+- "3.6"
 
 git:
   depth: 1
@@ -13,6 +15,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $github_token
-  local_dir: sites
+  local_dir: docs
   on:
     branch: master
