@@ -1,6 +1,7 @@
 ```plantuml
 @startuml
-scale 700 width
+scale 800 width
+skinparam monochrome reverse
 
 interface DevOps{
     Reduce organization silos()
@@ -52,7 +53,7 @@ Me : OSS = [Ansible, Docker]
 
 
 DevOps <|-- SRE
-SRETeam o-- SRE : aggregation
+SRETeam o-- SRE
 
 Me --|> Contributor
 Me --|> SRE
