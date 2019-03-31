@@ -1,7 +1,7 @@
 # About me
 
-This is for myself 3 days from now.
+---
 
-## 王(オウ)
+## 王(オウ) 爽(ソウ)
 
 ![me](images/me.png)
