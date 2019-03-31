@@ -1,23 +1,18 @@
-os: linux
-language: bash
+language: python
 
 git:
   depth: 1
 
 install:
-  - pip3 install mkdocs mkdocs-material
+  - pip install mkdocs mkdocs-material
 
-branches:
-  only:
-    - master
-
-before_deploy:
-    - mkdocs build --verbose --clean
+script:
+  - mkdocs build --verbose --clean --strict
 
 deploy:
-    provider: pages
-    skip_cleanup: true
-    github_token: $github_token
-    local_dir: docs
-    on:
-      branch: master
+  provider: pages
+  skip_cleanup: true
+  github_token: $github_token
+  local_dir: sites
+  on:
+    branch: master
