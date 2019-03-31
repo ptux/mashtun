@@ -1,3 +1,3 @@
+# introduce myself with buzzword
 
-
-![img](https://github.com/ptux/mashtun/blob/master/images/me.png)
+![me](https://github.com/ptux/mashtun/blob/master/docs/images/me.png)
