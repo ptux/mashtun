@@ -19,7 +19,7 @@ google_analytics:
 
 nav:
 - 'index.md'
-- 'path2ansible'
+- 'path2ansible/1. Automation and Autonomy.md'
 #- 'design-critical-thinking.md'
 #- 'todo-app-OOADP.md'
 #- 'docker-container-inspect.md'
