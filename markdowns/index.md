@@ -2,4 +2,4 @@
 
 This is for myself 3 days from now.
 
-![me](/images/me.png)
+![me](../images/me.png)
