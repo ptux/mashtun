@@ -2,9 +2,9 @@ site_name: 'MashTun'
 site_author: 'Shuang Wang (@ptux)'
 repo_url: https://github.com/ptux/mashtun
 remote_branch: master
-edit_uri: edit/master/markdowns/
+edit_uri: edit/master/docs/
 copyright: 'Copyright © Shuang Wang (@ptux) ALL RIGHTS RESERVED.'
-docs_dir: markdowns
+docs_dir: docs
 theme:
   name: 'material'
   custom_dir: 'theme'
@@ -19,11 +19,11 @@ google_analytics:
 
 nav:
 - 'index.md'
-- 'whatIsSRE.md'
-- 'design-critical-thinking.md'
-- 'todo-app-OOADP.md'
-- 'docker-container-inspect.md'
-- 'volume-bind-mount-insight.md'
-- 'RssFilter.md'
-- 'ood4docker.md'
-- 'copyvol.md'
+- 'path2ansible.md'
+#- 'design-critical-thinking.md'
+#- 'todo-app-OOADP.md'
+#- 'docker-container-inspect.md'
+#- 'volume-bind-mount-insight.md'
+#- 'RssFilter.md'
+#- 'ood4docker.md'
+#- 'copyvol.md'

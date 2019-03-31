@@ -2,7 +2,7 @@
 
 ## new_contributor
 
-https://github.com/ansible/ansible/pull/43342
+[new_contributor](https://github.com/ansible/ansible/pull/43342)
 
 ## 自分の生じたバッグがFIXされた
 
