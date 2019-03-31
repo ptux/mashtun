@@ -17,9 +17,6 @@ google_analytics:
   - 'UA-133165196-1'
   - 'auto'
 
-#markdown_extensions:
-#  - plantuml
-
 nav:
 - 'index.md'
 - 'whatIsSRE.md'
