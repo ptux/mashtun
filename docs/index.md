@@ -1,9 +1,7 @@
 # About me
 
-## 王(オウ)
-
-## ptux@github
-
 This is for myself 3 days from now.
+
+## 王(オウ)
 
 ![me](images/me.png)
