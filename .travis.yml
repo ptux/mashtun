@@ -6,7 +6,8 @@ git:
   depth: 1
 
 install:
-  - pip install mkdocs==1.0.3 mkdocs-material --quiet
+#  - pip install mkdocs==1.0.3 mkdocs-material --quiet
+  - pip install mkdocs mkdocs-material --quiet
 
 script:
   - mkdocs build --verbose --clean --strict
