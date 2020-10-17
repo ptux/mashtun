@@ -26,6 +26,8 @@ nav:
   - 'path2ansible/3. Fix bug.md'
   - 'path2ansible/4. Add new feature.md'
   - 'path2ansible/5. Add new module.md'
+- katacoda:
+  - "katacoda/first.md"
 #- 'design-critical-thinking.md'
 #- 'todo-app-OOADP.md'
 #- 'docker-container-inspect.md'
