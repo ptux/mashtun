@@ -1,7 +1,6 @@
 ```plantuml
 @startuml
 scale 800 width
-skinparam monochrome reverse
 
 interface DevOps{
     Reduce organization silos()
@@ -18,13 +17,15 @@ class SRE{
     Automate common case()
     Measure Toil and Reliability()
 }
-Class SE{
+
+Class InfraEngineer{
     Monitor Systems()
     Improve Performance()
     Design Systems()
 }
+
 Class Contributor{
-    OSS
+    OSS = [ Ansible, Docker,Kubernetes ]
     Review Code()
     Raise Issue()
     Fix Issue()
@@ -49,7 +50,7 @@ object Me
 Me : Name = Wang Shuang
 Me : Age = 1985
 Me : Role = Tech Lead
-Me : OSS = [Ansible, Docker,Kubernetes]
+Me : Tobe = Product manager
 
 
 DevOps <|-- SRE
@@ -57,7 +58,7 @@ SRETeam o-- SRE
 
 Me --|> Contributor
 Me --|> SRE
-Me --|> SE
+Me --|> InfraEngineer
 
 @enduml
 ```
