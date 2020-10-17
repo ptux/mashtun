@@ -47,9 +47,9 @@ class SRETeam{
 
 object Me
 Me : Name = Wang Shuang
-Me : Age = 32+
+Me : Age = 1985
 Me : Role = Tech Lead
-Me : OSS = [Ansible, Docker]
+Me : OSS = [Ansible, Docker,Kubernetes]
 
 
 DevOps <|-- SRE
