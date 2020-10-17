@@ -4,4 +4,4 @@
 
 ## 王(わん) 
 
-![me](images/me.png)
+![me](imgs/me.png)
