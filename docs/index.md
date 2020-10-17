@@ -4,4 +4,4 @@
 
 ## 王(オウ) 爽(ソウ)
 
-![me](images/me.png)
+![me](imgs/me.png)
