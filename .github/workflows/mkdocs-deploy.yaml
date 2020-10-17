@@ -42,4 +42,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.PERSONAL_TOKEN_FOR_MASHTUN }}
-          publish_dir: ./docs
+          publish_dir: ./site
