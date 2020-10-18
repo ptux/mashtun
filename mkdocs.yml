@@ -10,6 +10,8 @@ theme:
   name: 'material'
   custom_dir: 'theme'
   language: 'ja'
+  features:
+    - navigation.tabs
 extra:
   search:
     language: 'jp'
@@ -19,6 +21,7 @@ google_analytics:
   - 'auto'
 
 nav:
+- 'softskills.md'
 - 'index.md'
 - path2ansible:
   - 'path2ansible/1. Automation and Autonomy.md'
