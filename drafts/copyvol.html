@@ -169,6 +169,10 @@
         
   
   
+    
+    
+  
+  
     <li class="md-tabs__item">
       
         <a href="../Artifacts/Path2Ansible/1.%20Automation%20and%20Autonomy.html" class="md-tabs__link">
@@ -176,6 +180,8 @@
         </a>
       
     </li>
+  
+
   
 
       
@@ -283,6 +289,27 @@
           
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Path2Ansible
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Path2Ansible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        <span class="md-nav__icon md-icon"></span>
+        Path2Ansible
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
     <a href="../Artifacts/Path2Ansible/1.%20Automation%20and%20Autonomy.html" class="md-nav__link">
       1. Automation and Autonomy
@@ -335,6 +362,11 @@
     <a href="../Artifacts/Path2Ansible/5.%20Add%20new%20module.html" class="md-nav__link">
       5. Add new module
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -480,12 +512,12 @@
                   </a>
                 
                 
-                <h1 id="copy-and-volumes">COPY and volumes</h1>
-<h2 id="docker-compose-build-copy">docker-compose build には COPY が余計では？</h2>
+                <h1 id="copy-and-volumes">COPY and volumes<a class="headerlink" href="#copy-and-volumes" title="Permanent link">&para;</a></h1>
+<h2 id="docker-compose-build-copy">docker-compose build には COPY が余計では？<a class="headerlink" href="#docker-compose-build-copy" title="Permanent link">&para;</a></h2>
 <p>こういう質問を受けましたので、みずから解明しました。</p>
 <p>docker-compose build は volumes を利用しません。</p>
 <p>volumes,ports を利用するのは、docker-compose up サブコマンドです。</p>
-<h2 id="copy-in-dockerfile">COPY in Dockerfile</h2>
+<h2 id="copy-in-dockerfile">COPY in Dockerfile<a class="headerlink" href="#copy-in-dockerfile" title="Permanent link">&para;</a></h2>
 <p><a href="https://docs.docker.com/compose/rails/">Sample code from Docker docs</a></p>
 <pre><code class="language-dockerfile">FROM ruby:2.5
 RUN apt-get update -qq &amp;&amp; apt-get install -y nodejs postgresql-client
@@ -505,7 +537,7 @@ EXPOSE 3000
 # Start the main process.
 CMD [&quot;rails&quot;, &quot;server&quot;, &quot;-b&quot;, &quot;0.0.0.0&quot;]
 </code></pre>
-<h2 id="volumes-in-docker-composeyml">volumes in docker-compose.yml</h2>
+<h2 id="volumes-in-docker-composeyml">volumes in docker-compose.yml<a class="headerlink" href="#volumes-in-docker-composeyml" title="Permanent link">&para;</a></h2>
 <pre><code class="language-dockerfile">version: '3'
 services:
   db:
@@ -558,7 +590,7 @@ services:
       <script>
         app = initialize({
           base: "..",
-          features: ['navigation.tabs'],
+          features: ['navigation.tabs', 'navigation.expand'],
           search: Object.assign({
             worker: "../assets/javascripts/worker/search.4ac00218.min.js"
           }, typeof search !== "undefined" && search)

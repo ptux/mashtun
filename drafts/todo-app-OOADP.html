@@ -169,6 +169,10 @@
         
   
   
+    
+    
+  
+  
     <li class="md-tabs__item">
       
         <a href="../Artifacts/Path2Ansible/1.%20Automation%20and%20Autonomy.html" class="md-tabs__link">
@@ -176,6 +180,8 @@
         </a>
       
     </li>
+  
+
   
 
       
@@ -283,6 +289,27 @@
           
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Path2Ansible
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Path2Ansible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        <span class="md-nav__icon md-icon"></span>
+        Path2Ansible
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
     <a href="../Artifacts/Path2Ansible/1.%20Automation%20and%20Autonomy.html" class="md-nav__link">
       1. Automation and Autonomy
@@ -335,6 +362,11 @@
     <a href="../Artifacts/Path2Ansible/5.%20Add%20new%20module.html" class="md-nav__link">
       5. Add new module
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -480,16 +512,16 @@
                   </a>
                 
                 
-                <h1 id="todo-app-ooa-ood-oop">todo app OOA OOD OOP</h1>
+                <h1 id="todo-app-ooa-ood-oop">todo app OOA OOD OOP<a class="headerlink" href="#todo-app-ooa-ood-oop" title="Permanent link">&para;</a></h1>
 <p>A simple command-line todo application.</p>
 <p><a href="https://learning.oreilly.com/library/view/python-3-object-oriented/9781784398781/">Python 3 Object-oriented Programming - Second Edition</a></p>
-<h2 id="ooa">OOA</h2>
+<h2 id="ooa">OOA<a class="headerlink" href="#ooa" title="Permanent link">&para;</a></h2>
 <p>ALl todos are stored in the todo list.
 Each todo should be able to change state.
 It should be possible to modify todos.
 It also need to be able to search for Todos.
 All of these things should be done from the command line.</p>
-<h2 id="ood">OOD</h2>
+<h2 id="ood">OOD<a class="headerlink" href="#ood" title="Permanent link">&para;</a></h2>
 <p>top-down design with class diagram</p>
 <pre><code class="language-plantuml">@startuml
 scale 450 width
@@ -517,7 +549,7 @@ TodoList &quot;1&quot; -- &quot;*&quot; Todo
 
 @enduml
 </code></pre>
-<h2 id="oop">OOP</h2>
+<h2 id="oop">OOP<a class="headerlink" href="#oop" title="Permanent link">&para;</a></h2>
 <pre><code class="language-shell">todo/
  |- __init__.py
  |- todolist.py
@@ -564,7 +596,7 @@ TodoList &quot;1&quot; -- &quot;*&quot; Todo
       <script>
         app = initialize({
           base: "..",
-          features: ['navigation.tabs'],
+          features: ['navigation.tabs', 'navigation.expand'],
           search: Object.assign({
             worker: "../assets/javascripts/worker/search.4ac00218.min.js"
           }, typeof search !== "undefined" && search)

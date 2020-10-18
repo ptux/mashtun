@@ -171,6 +171,10 @@
         
   
   
+    
+    
+  
+  
     <li class="md-tabs__item">
       
         <a href="1.%20Automation%20and%20Autonomy.html" class="md-tabs__link md-tabs__link--active">
@@ -178,6 +182,8 @@
         </a>
       
     </li>
+  
+
   
 
       
@@ -289,6 +295,29 @@
   
 
 
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1" checked>
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Path2Ansible
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Path2Ansible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        <span class="md-nav__icon md-icon"></span>
+        Path2Ansible
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
   <li class="md-nav__item md-nav__item--active">
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
@@ -348,6 +377,11 @@
     <a href="5.%20Add%20new%20module.html" class="md-nav__link">
       5. Add new module
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -464,9 +498,9 @@
                   </a>
                 
                 
-                <h1 id="1-automation-and-autonomy">1. Automation and Autonomy</h1>
+                <h1 id="1-automation-and-autonomy">1. Automation and Autonomy<a class="headerlink" href="#1-automation-and-autonomy" title="Permanent link">&para;</a></h1>
 <hr />
-<p><img alt="bluegreen" src="../imgs/bluegreen.png" /></p>
+<p><img alt="bluegreen" src="bluegreen.png" /></p>
                 
               
               
@@ -503,7 +537,7 @@
       <script>
         app = initialize({
           base: "../..",
-          features: ['navigation.tabs'],
+          features: ['navigation.tabs', 'navigation.expand'],
           search: Object.assign({
             worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
           }, typeof search !== "undefined" && search)

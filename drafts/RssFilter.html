@@ -169,6 +169,10 @@
         
   
   
+    
+    
+  
+  
     <li class="md-tabs__item">
       
         <a href="../Artifacts/Path2Ansible/1.%20Automation%20and%20Autonomy.html" class="md-tabs__link">
@@ -176,6 +180,8 @@
         </a>
       
     </li>
+  
+
   
 
       
@@ -283,6 +289,27 @@
           
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Path2Ansible
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Path2Ansible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        <span class="md-nav__icon md-icon"></span>
+        Path2Ansible
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
     <a href="../Artifacts/Path2Ansible/1.%20Automation%20and%20Autonomy.html" class="md-nav__link">
       1. Automation and Autonomy
@@ -335,6 +362,11 @@
     <a href="../Artifacts/Path2Ansible/5.%20Add%20new%20module.html" class="md-nav__link">
       5. Add new module
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -480,8 +512,8 @@
                   </a>
                 
                 
-                <h1 id="rssfilter-ooa-ood-oop">RssFilter OOA OOD OOP</h1>
-<h2 id="ooa">OOA</h2>
+                <h1 id="rssfilter-ooa-ood-oop">RssFilter OOA OOD OOP<a class="headerlink" href="#rssfilter-ooa-ood-oop" title="Permanent link">&para;</a></h1>
+<h2 id="ooa">OOA<a class="headerlink" href="#ooa" title="Permanent link">&para;</a></h2>
 <p>requirements (what needs to be done.)</p>
 <ul>
 <li>変換:「xxx」という文字を取り除く</li>
@@ -490,7 +522,7 @@
 <li>処理途中でエラーが発生したら標準エラー出力にエラー内容を表示する</li>
 <li>出力を標準出力に表示するだけでなく、テキストファイルに保存する</li>
 </ul>
-<h2 id="ood">OOD</h2>
+<h2 id="ood">OOD<a class="headerlink" href="#ood" title="Permanent link">&para;</a></h2>
 <p>specification (how things should be done.)</p>
 <pre><code class="language-plantuml">@startuml
 scale 450 width
@@ -559,7 +591,7 @@ FeedParser &lt;|-- UrlToStdout
 
 @enduml
 </code></pre>
-<h2 id="oop">OOP</h2>
+<h2 id="oop">OOP<a class="headerlink" href="#oop" title="Permanent link">&para;</a></h2>
 <pre><code class="language-python">#!/usr/bin/env python3
 # -*- coding: utf8 -*-
 
@@ -650,7 +682,7 @@ if __name__ == &quot;__main__&quot;:
       <script>
         app = initialize({
           base: "..",
-          features: ['navigation.tabs'],
+          features: ['navigation.tabs', 'navigation.expand'],
           search: Object.assign({
             worker: "../assets/javascripts/worker/search.4ac00218.min.js"
           }, typeof search !== "undefined" && search)

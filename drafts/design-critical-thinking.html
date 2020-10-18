@@ -169,6 +169,10 @@
         
   
   
+    
+    
+  
+  
     <li class="md-tabs__item">
       
         <a href="../Artifacts/Path2Ansible/1.%20Automation%20and%20Autonomy.html" class="md-tabs__link">
@@ -176,6 +180,8 @@
         </a>
       
     </li>
+  
+
   
 
       
@@ -283,6 +289,27 @@
           
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Path2Ansible
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Path2Ansible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        <span class="md-nav__icon md-icon"></span>
+        Path2Ansible
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
     <a href="../Artifacts/Path2Ansible/1.%20Automation%20and%20Autonomy.html" class="md-nav__link">
       1. Automation and Autonomy
@@ -335,6 +362,11 @@
     <a href="../Artifacts/Path2Ansible/5.%20Add%20new%20module.html" class="md-nav__link">
       5. Add new module
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -473,8 +505,8 @@
                   </a>
                 
                 
-                <h1 id="thinking">thinking</h1>
-<h2 id="design-thinking">design thinking</h2>
+                <h1 id="thinking">thinking<a class="headerlink" href="#thinking" title="Permanent link">&para;</a></h1>
+<h2 id="design-thinking">design thinking<a class="headerlink" href="#design-thinking" title="Permanent link">&para;</a></h2>
 <p>明確なゴールがあって、それを実現するための方法を考えてゆく。
 抽象的なゴールを具体化して行くプロセス。</p>
 <pre><code class="language-plantuml">@startuml
@@ -486,7 +518,7 @@ goal ..|&gt; &quot;method 3&quot;
 
 @enduml
 </code></pre>
-<h2 id="critical-thinking">critical thinking</h2>
+<h2 id="critical-thinking">critical thinking<a class="headerlink" href="#critical-thinking" title="Permanent link">&para;</a></h2>
 <pre><code class="language-plantuml">@startuml
 scale 700 width
 
@@ -532,7 +564,7 @@ goal &lt;|-- &quot;method 3&quot;
       <script>
         app = initialize({
           base: "..",
-          features: ['navigation.tabs'],
+          features: ['navigation.tabs', 'navigation.expand'],
           search: Object.assign({
             worker: "../assets/javascripts/worker/search.4ac00218.min.js"
           }, typeof search !== "undefined" && search)
