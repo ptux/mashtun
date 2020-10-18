@@ -7,6 +7,7 @@
 - Kubernetes Document Contributor
 
 [Linkedin Profile](https://www.linkedin.com/in/ptux/)
+
 [Github Profile](https://github.com/ptux)
 
-![me](imgs/me.png)
+![me](me.png)

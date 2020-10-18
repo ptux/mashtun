@@ -12,9 +12,14 @@ theme:
   language: 'ja'
   features:
     - navigation.tabs
+    - navigation.expand
 extra:
   search:
     language: 'jp'
+
+markdown_extensions:
+  - toc:
+      permalink: true
 
 google_analytics:
   - 'UA-133165196-1'
@@ -23,11 +28,12 @@ google_analytics:
 nav:
 - "index.md"
 - Artifacts:
-  - "Artifacts/Path2Ansible/1. Automation and Autonomy.md"
-  - "Artifacts/Path2Ansible/2. Fix doc.md"
-  - "Artifacts/Path2Ansible/3. Fix bug.md"
-  - "Artifacts/Path2Ansible/4. Add new feature.md"
-  - "Artifacts/Path2Ansible/5. Add new module.md"
+  - Path2Ansible:
+      - "Artifacts/Path2Ansible/1. Automation and Autonomy.md"
+      - "Artifacts/Path2Ansible/2. Fix doc.md"
+      - "Artifacts/Path2Ansible/3. Fix bug.md"
+      - "Artifacts/Path2Ansible/4. Add new feature.md"
+      - "Artifacts/Path2Ansible/5. Add new module.md"
 - LearnByTeaching:
   - "LearnByTeaching/pod-lifecycle.md"
 - SoftSkills:
