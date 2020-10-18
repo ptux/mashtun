@@ -21,16 +21,17 @@ google_analytics:
   - 'auto'
 
 nav:
-- 'softskills.md'
 - 'index.md'
-- path2ansible:
-  - 'path2ansible/1. Automation and Autonomy.md'
-  - 'path2ansible/2. Fix doc.md'
-  - 'path2ansible/3. Fix bug.md'
-  - 'path2ansible/4. Add new feature.md'
-  - 'path2ansible/5. Add new module.md'
-- katacoda:
-  - "katacoda/first.md"
+- Path2Ansible:
+  - 'Path2Ansible/1. Automation and Autonomy.md'
+  - 'Path2Ansible/2. Fix doc.md'
+  - 'Path2Ansible/3. Fix bug.md'
+  - 'Path2Ansible/4. Add new feature.md'
+  - 'Path2Ansible/5. Add new module.md'
+- LearnByTeaching:
+  - "LearnByTeaching/pod-lifecycle.md"
+- SoftSkills:
+  - "SoftSkills/softskills.md"
 #- 'design-critical-thinking.md'
 #- 'todo-app-OOADP.md'
 #- 'docker-container-inspect.md'
