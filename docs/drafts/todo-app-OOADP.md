@@ -56,6 +56,4 @@ todo/
 
 ```python
 import datetime
-
-
 ```

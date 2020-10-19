@@ -1,5 +1,5 @@
 site_name: 'MashTun'
-site_author: 'Shuang Wang (@ptux)'
+site_author: 'Shuang Wang'
 repo_url: https://github.com/ptux/mashtun
 remote_branch: master
 edit_uri: edit/master/docs/
