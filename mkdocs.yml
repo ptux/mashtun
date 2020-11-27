@@ -34,6 +34,10 @@ nav:
       - "Artifacts/Path2Ansible/3. Fix bug.md"
       - "Artifacts/Path2Ansible/4. Add new feature.md"
       - "Artifacts/Path2Ansible/5. Add new module.md"
+  - StreamlineOnboarding:
+      - "proof of value.md"
+      - "Artifacts/StreamlineOnboarding/dev environment as code.md"
+      - "Artifacts/StreamlineOnboarding/time to first commit.md"
 - LearnByTeaching:
   - "LearnByTeaching/pod-lifecycle.md"
 - SoftSkills:
