@@ -1,5 +1,5 @@
 site_name: 'MashTun'
-site_author: 'Shuang Wang (@ptux)'
+site_author: 'Shuang Wang'
 repo_url: https://github.com/ptux/mashtun
 remote_branch: master
 edit_uri: edit/master/docs/
@@ -16,6 +16,16 @@ theme:
 extra:
   search:
     language: 'jp'
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ptux
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ooocamel
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ptux/
+
+plugins:
+  - rss
 
 markdown_extensions:
   - toc:
