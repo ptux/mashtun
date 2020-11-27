@@ -1,3 +1,3 @@
 # About me
 
-![me](me.png)
+![me](imgs/me.png)
