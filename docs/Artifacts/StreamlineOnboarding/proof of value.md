@@ -1,4 +1,4 @@
-# PoV
+# [WIP] PoV
 
 PoVは「Proof of Value」の略語であり、直訳すると価値の証明の意味になります。
 

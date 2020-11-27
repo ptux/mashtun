@@ -1,4 +1,4 @@
-# Time to First Commit
+# [WIP] Time to First Commit
 
 It’s the time it takes
 from when The New Person turn on PC
