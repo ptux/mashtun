@@ -1,3 +1,3 @@
 # introduce myself with buzzword
 
-![me](imgs/me.png)
+![me](/imgs/me.png)

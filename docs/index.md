@@ -1,6 +1,6 @@
 # About me
 
-![me](imgs/me.png)
+![me](/imgs/me.png)
 
 display plantuml
 
