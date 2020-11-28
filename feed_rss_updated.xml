@@ -16,8 +16,8 @@
     <language>ja</language>
 
     <!-- Timestamps and frequency -->
-    <pubDate>Sat, 28 Nov 2020 23:45:41 -0000</pubDate>
-    <lastBuildDate>Sat, 28 Nov 2020 23:45:41 -0000</lastBuildDate>
+    <pubDate>Sat, 28 Nov 2020 23:50:49 -0000</pubDate>
+    <lastBuildDate>Sat, 28 Nov 2020 23:50:49 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     <!-- Credits -->
@@ -32,7 +32,7 @@
       <title>About me</title>
       <description># About me
 
-![me](imgs/me.png)
+![me](/imgs/me.png)
 
 display plantuml
 
@@ -42,9 +42,9 @@ scale 800 width
 scale 700 height
 
 interface DevOps{
-    Reduce organization si</description>
+    Reduce organization s</description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -56,9 +56,9 @@ interface DevOps{
 
 ---
 
-![bluegreen](imgs/bluegreen.png)</description>
+![bluegreen](/imgs/me.png)</description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -76,7 +76,7 @@ interface DevOps{
     subnet_id: subnet-xxxxxxxx
     eni_id: eni-yyyyyyyy</description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -93,7 +93,7 @@ interface DevOps{
 ```yaml
 bugfixes:</description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -110,7 +110,7 @@ bugfixes:</description>
 ```yaml
 - name: Cop</description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -127,7 +127,7 @@ bugfixes:</description>
 ```yaml
 </description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -144,7 +144,7 @@ bugfixes:</description>
 
 - A new developer gets pointed to the readm</description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -156,10 +156,10 @@ bugfixes:</description>
 
 Postmortems (or incident retrospectives) as a library of learning.
 
-![postmortems](imgs/postmortems.png)
+![postmortems](/imgs/postmortems.png)
 </description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -174,7 +174,7 @@ PoVは「Proof of Value」の略語であり、直訳すると価値の証明の
 短い期間でシステムを試験利用して、既存の業務とシステムを利用した場合の業務を比較し、
 その削減効果と利用コストを天秤にかけて、利用価値を見出す事がまさに価値の実証となります。</description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -188,7 +188,7 @@ It’s the time it takes
 from when The New Person turn on PC
 to the time when they&#39;ve pushed the first commit to the versi</description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -206,7 +206,7 @@ katacoda-pod-lifecycle:
 
 &lt;div id=&#34;katacoda-pod-li</description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -218,7 +218,7 @@ katacoda-pod-lifecycle:
 
 プログラマーが良い人生を送るためには、技術習得法やキャリア構築法といったノウハウに加え、対人的な交渉・指導・意思疎通などをうまく行える能力や知恵、すなわちソフトスキルが不可欠です! </description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -237,7 +237,7 @@ requirements (what needs to be done.)
 * 入力RSSを複数にする
 * 処理途中でエラーが発生したら標準エラー出力</description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -258,7 +258,7 @@ requirements (what needs to be done.)
 三次情報： dockument
 </description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -276,7 +276,7 @@ docker-compose build は volumes を利用しません。
 
 volumes,ports を利用するのは</description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -298,7 +298,7 @@ scale 700 width
 goal ..|&gt; &#34;method 1&#34;
 goal </description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -313,7 +313,7 @@ goal </description>
 
 データー構造を紐解くことで</description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -337,7 +337,7 @@ goal </description>
 
 ## Cgroup Namespace</description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -360,7 +360,7 @@ Class Image{
     -tag: str
  </description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
@@ -374,7 +374,7 @@ Class Image{
 
 If you can’t measure something, you can’t understa</description>
       
-      <pubDate>Sat, 28 Nov 2020 23:45:05 -0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 23:50:10 -0000</pubDate>
       
       
       
