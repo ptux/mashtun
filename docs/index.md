@@ -1,9 +1,5 @@
 # About me
 
-![me](/imgs/me.png)
-
-display plantuml
-
 ```plantuml
 @startuml
 scale 800 width
