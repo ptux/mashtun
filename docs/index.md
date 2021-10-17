@@ -21,6 +21,18 @@ class SRE{
     Measure Toil and Reliability()
 }
 
+Class BackEndEngineer{
+    Monitor Systems()
+    Improve Performance()
+    Design Systems()
+}
+
+Class FrontEndEngineer{
+    Monitor Systems()
+    Improve Performance()
+    Design Systems()
+}
+
 Class InfraEngineer{
     Monitor Systems()
     Improve Performance()

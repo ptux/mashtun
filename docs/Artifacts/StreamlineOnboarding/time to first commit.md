@@ -23,7 +23,7 @@ Time to First Commit is a measurable quantity, which means that it’s relativel
 Documentation:
 
 - Development environment setup guide.
-- Makefile target descriptions. 
+- Makefile target descriptions.
 - Instructions for running both unit and end-to-end tests
 - Recommended tools, editor plug-ins, etc.
 

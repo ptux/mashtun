@@ -1,3 +1,9 @@
+---
+tags:
+  - 101
+  - k8s
+---
+
 # first katacoda cource
 
 ## katacoda-pod-lifecycle
