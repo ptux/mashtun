@@ -5,7 +5,7 @@
 scale 800 width
 scale 700 height
 
-interface DevOps{
+Interface DevOps{
     Reduce organization silos()
     Accept failure as normal()
     Implement gradual change()
@@ -13,7 +13,7 @@ interface DevOps{
     Measure everything()
 }
 
-class SRE{
+Class SRE{
     Share Ownership()
     Error Budget()
     Canary Release()
@@ -21,13 +21,13 @@ class SRE{
     Measure Toil and Reliability()
 }
 
-Class BackEndEngineer{
+Class WebBackEndEngineer{
     Monitor Systems()
     Improve Performance()
     Design Systems()
 }
 
-Class FrontEndEngineer{
+Class WebFrontEndEngineer{
     Monitor Systems()
     Improve Performance()
     Design Systems()
@@ -48,7 +48,7 @@ Class Contributor{
     Create Feature()
 }
 
-class SRETeam{
+Class SRETeam{
     SLO
     SLI
     availability()
@@ -61,7 +61,7 @@ class SRETeam{
     capacity planning()
 }
 
-object Me
+Object Me
 Me : Name = Wang Shuang
 Me : Age = 1985
 Me : Role = Tech Lead
