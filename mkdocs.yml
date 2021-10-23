@@ -8,9 +8,8 @@ copyright: 'Copyright © Shuang Wang (@ptux) ALL RIGHTS RESERVED.'
 docs_dir: docs
 use_directory_urls: False
 theme:
-  name: material
+  name: null
   custom_dir: 'theme'
-  # Don't include MkDocs' JavaScript
   include_search_page: false
   search_index_only: true
   language: 'ja'
