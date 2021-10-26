@@ -1,8 +1,18 @@
-# first katacoda cource
+# Observing Kubernetes pod lifecycle
 
-## katacoda-pod-lifecycle
+The states of a Pod's lifecycle are:
 
-katacoda-pod-lifecycle:
+- Pending: In the process of being scheduled and run
+
+- Running: Running within the cluster
+
+- Succeeded: Finished operation normally
+
+- Failed: Finished operation crashed
+
+- Unknown: Internal problem happening
+
+![img](pod-lifecycle.png)
 
 <script src="//katacoda.com/embed.js"></script>
 
