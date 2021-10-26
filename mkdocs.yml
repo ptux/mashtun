@@ -36,6 +36,7 @@ markdown_extensions:
       permalink: true
   - plantuml_markdown:
       server: http://www.plantuml.com/plantuml
+  - meta
 
 nav:
 - "index.md"
