@@ -1,4 +1,12 @@
-# Observing Kubernetes pod lifecycle
+# Observing Kubernetes Pod Lifecycle
+
+
+## Big Picture
+
+![img](pod-lifecycle.png)
+
+
+## In A Nutshell
 
 The states of a Pod's lifecycle are:
 
@@ -12,7 +20,7 @@ The states of a Pod's lifecycle are:
 
 - Unknown: Internal problem happening
 
-![img](pod-lifecycle.png)
+## Get Your Hands Dirty
 
 <script src="//katacoda.com/embed.js"></script>
 
