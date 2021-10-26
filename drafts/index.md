@@ -40,7 +40,7 @@ Class InfraEngineer{
 }
 
 Class Contributor{
-    OSS = [ Ansible, Docker,Kubernetes ]
+    OSS = [ Ansible, Docker, Kubernetes ]
     Review Code()
     Raise Issue()
     Fix Issue()
