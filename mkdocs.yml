@@ -29,7 +29,7 @@ extra:
       link: https://twitter.com/ooocamel
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/ptux/
-  disqus: wang_shuang
+  disqus: mashtun-1
 
 markdown_extensions:
   - toc:
