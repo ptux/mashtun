@@ -16,10 +16,9 @@ theme:
   features:
     - navigation.tabs
     - navigation.expand
-
-plugins:
-  - tags:
-      tags_file: tags.md
+  plugins:
+    - tags:
+        tags_file: tags.md
 
 extra:
   search:
