@@ -37,7 +37,7 @@ markdown_extensions:
       server: http://www.plantuml.com/plantuml
 
 nav:
-# - "index.md"
+- "index.md"
 - Artifacts:
   - Path2Ansible:
       - "Artifacts/Path2Ansible/1. Automation and Autonomy.md"
