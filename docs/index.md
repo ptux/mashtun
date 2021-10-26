@@ -1,5 +1,7 @@
 # About me
 
+The site is still WORKING IN PROGRESS.
+
 ```plantuml
 @startuml
 scale 800 width
