@@ -18,7 +18,7 @@
     
     
       
-        <title>first katacoda cource - MashTun</title>
+        <title>Observing Kubernetes pod lifecycle - MashTun</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#first-katacoda-cource" class="md-skip">
+        <a href="#observing-kubernetes-pod-lifecycle" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              first katacoda cource
+              Observing Kubernetes pod lifecycle
             
           </span>
         </div>
@@ -595,39 +595,9 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          first katacoda cource
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="pod-lifecycle.html" class="md-nav__link md-nav__link--active">
-        first katacoda cource
+        Observing Kubernetes pod lifecycle
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="目次">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目次
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#katacoda-pod-lifecycle" class="md-nav__link">
-    katacoda-pod-lifecycle
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -755,21 +725,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目次
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#katacoda-pod-lifecycle" class="md-nav__link">
-    katacoda-pod-lifecycle
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -785,9 +740,26 @@
                   </a>
                 
                 
-                <h1 id="first-katacoda-cource">first katacoda cource<a class="headerlink" href="#first-katacoda-cource" title="Permanent link">&para;</a></h1>
-<h2 id="katacoda-pod-lifecycle">katacoda-pod-lifecycle<a class="headerlink" href="#katacoda-pod-lifecycle" title="Permanent link">&para;</a></h2>
-<p>katacoda-pod-lifecycle:</p>
+                <h1 id="observing-kubernetes-pod-lifecycle">Observing Kubernetes pod lifecycle<a class="headerlink" href="#observing-kubernetes-pod-lifecycle" title="Permanent link">&para;</a></h1>
+<p>The states of a Pod's lifecycle are:</p>
+<ul>
+<li>
+<p>Pending: In the process of being scheduled and run</p>
+</li>
+<li>
+<p>Running: Running within the cluster</p>
+</li>
+<li>
+<p>Succeeded: Finished operation normally</p>
+</li>
+<li>
+<p>Failed: Finished operation crashed</p>
+</li>
+<li>
+<p>Unknown: Internal problem happening</p>
+</li>
+</ul>
+<p><img alt="img" src="pod-lifecycle.png" /></p>
 <script src="//katacoda.com/embed.js"></script>
 
 <div id="katacoda-pod-lifecycle"
