@@ -8,7 +8,7 @@ copyright: 'Copyright © Shuang Wang (@ptux) ALL RIGHTS RESERVED.'
 docs_dir: docs
 use_directory_urls: False
 theme:
-  name: null
+  name: material
   custom_dir: 'theme'
   include_search_page: false
   search_index_only: true
