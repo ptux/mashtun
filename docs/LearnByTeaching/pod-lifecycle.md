@@ -1,7 +1,3 @@
----
-disqus: wang_shuang
----
-
 # first katacoda cource
 
 ## katacoda-pod-lifecycle

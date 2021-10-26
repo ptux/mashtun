@@ -1,7 +1,3 @@
----
-disqus: wang_shuang
----
-
 # PythonでオリジナルのWEBサービスを作ってみよう
 
 と思って、
