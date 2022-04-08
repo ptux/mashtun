@@ -522,6 +522,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#irate" class="md-nav__link">
+    irate 関数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#avg" class="md-nav__link">
     avg 関数
   </a>
@@ -584,6 +591,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#irate" class="md-nav__link">
+    irate 関数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#avg" class="md-nav__link">
     avg 関数
   </a>
@@ -622,48 +636,51 @@
 
 
 <h1 id="prometheus-rate-avg">prometheus rate avg 関数<a class="headerlink" href="#prometheus-rate-avg" title="Permanent link">&para;</a></h1>
-<p>CPUのsystemモードの使用率をstep by stepで、下記のデモン環境を用いて検証しました。</p>
+<p>CPUのsystemモードの使用率をstep by stepで、下記のデモン環境を用いて検証した。</p>
 <p>https://bit.ly/3uXhUrB</p>
-<pre><code>sum(avg without(cpu) (rate(node_cpu_seconds_total{mode=&quot;system&quot;}[30s])))by (instance)
+<p>こちらのデモン環境をアクセスすると、リアルに値を確認できる。</p>
+<pre><code>avg without(cpu) (rate(node_cpu_seconds_total{mode=&quot;system&quot;}[45s]))
 </code></pre>
 <h2 id="node_cpu_seconds_total">node_cpu_seconds_totalメトリクス<a class="headerlink" href="#node_cpu_seconds_total" title="Permanent link">&para;</a></h2>
 <p><img alt="node_cpu_seconds_total" src="node_cpu_seconds_total.png" /></p>
-<p>PromSQL:</p>
-<pre><code>node_cpu_seconds_total{mode=&quot;system&quot;}[30s]
-</code></pre>
-<ul>
-<li><code>node_cpu_seconds_total{mode="system"}</code></li>
-</ul>
-<p>システム起動されてから、<code>2022-04-06 22:22:03</code>までに、<code>system</code>モードでCPUが稼働していた<code>秒数</code>である。</p>
-<ul>
-<li><code>node_cpu_seconds_total{mode="system"}[30s]</code></li>
-</ul>
-<p><code>2022-04-06 22:22:03</code>から30秒前まで(22:21:33 - 22:22:03)のデータポイントを取得する。</p>
-<p><code>cpu="0"</code>の場合：
-1649251300.323 = 22:21:40.323
-1649251315.323 = 22:21:55.323</p>
-<p><code>node_cpu_seconds_total</code>は、<code>Node Exporter</code>によるスクレイプされるメトリクスで、スクレイプ間隔15秒でありる。</p>
-<p>よって、上記クエリで２つのデータポイントが取得される。</p>
+<ol>
+<li>
+<p><code>node_cpu_seconds_total{mode="system"}</code>
+  システム起動されてから、<strong>2022-04-06 22:22:03</strong>までに、<strong>system</strong>モードでCPUが稼働していた<code>秒数</code>である。</p>
+</li>
+<li>
+<p><code>node_cpu_seconds_total{mode="system"}[45s]</code>
+  <strong>2022-04-06 22:22:03</strong> から45秒前まで(22:21:08 - 22:22:03)のデータポイントを取得する。
+  <strong>node_cpu_seconds_total</strong>は、<strong>Node Exporter</strong>によるスクレイプされるメトリクスで、スクレイプ間隔15秒でありる。</p>
+</li>
+</ol>
+<p>よって、上記クエリで3つのデータポイントが取得される。</p>
 <h2 id="rate">rate 関数<a class="headerlink" href="#rate" title="Permanent link">&para;</a></h2>
 <p><img alt="rate" src="rate.png" /></p>
 <p>PromSQL:</p>
-<pre><code>rate(node_cpu_seconds_total{mode=&quot;system&quot;}[30s])
+<pre><code>rate(node_cpu_seconds_total{mode=&quot;system&quot;}[45s])
 </code></pre>
-<p><code>cpu="0"</code>のrateの計算方法は、</p>
+<p>rateは、カウントの変化量を、指定される期間で割る。</p>
+<p>rateのカウントの変化量は、一番最近のデータから、一番古いデータを引く。</p>
+<p>よって、<code>cpu="0"</code>のrateは、</p>
+<pre><code>(867403.62s - 867402.78s)/(1649251315.323s - 1649251285.323s)
+= 0.84s / 30s
+= 0.028
+</code></pre>
+<h2 id="irate">irate 関数<a class="headerlink" href="#irate" title="Permanent link">&para;</a></h2>
+<p><img alt="irate" src="irate.png" /></p>
+<p>irateのカウントの変化量は、一番最近のデータから、二番目最近のデータを引く。</p>
+<p>よって、<code>cpu="0"</code>のrateは、</p>
 <pre><code>(867403.62s - 867403.17s)/(1649251315.323s - 1649251300.323s)
 = 0.45s / 15s
 = 0.03
 </code></pre>
-<p>rateは、カウントの変化量を、指定される期間で割る。</p>
-<p>rateのカウントの変化量は、一番最近のデータから、一番古いデータを引く。</p>
-<p>irateのカウントの変化量は、一番最近のデータから、二番目最近のデータを引く。</p>
-<p>このケースにおいて、データポイント２つしかないので、rateとirateは同じ結果になる。</p>
 <h2 id="avg">avg 関数<a class="headerlink" href="#avg" title="Permanent link">&para;</a></h2>
-<pre><code>avg without(cpu) (rate(node_cpu_seconds_total{mode=&quot;system&quot;}[30s]))
+<pre><code>avg without(cpu) (rate(node_cpu_seconds_total{mode=&quot;system&quot;}[45s]))
 </code></pre>
 <p><code>cpu="0"</code>と<code>cpu="1"</code>の平均値を求める。</p>
-<p>(0.02999999999689559 + 0.028666666670081515)/2
-= 0.02933333</p>
+<p>(0.027999999998913457 + 0.029333333333488552)/2
+= 0.02866667</p>
 
               
             </article>
