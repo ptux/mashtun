@@ -16,6 +16,9 @@ theme:
   features:
     - navigation.tabs
     - navigation.expand
+  plugins:
+    - tags:
+        tags_file: tags.md
 extra:
   search:
     language: 'jp'
@@ -31,9 +34,7 @@ extra:
       link: https://www.linkedin.com/in/ptux/
   disqus: mashtun-1
 
-plugins:
-  - tags:
-      tags_file: tags.md
+
 
 markdown_extensions:
   - toc:
