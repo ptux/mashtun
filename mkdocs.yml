@@ -12,6 +12,7 @@ theme:
   custom_dir: 'theme'
   include_search_page: false
   search_index_only: true
+  language: 'ja'
   features:
     - navigation.tabs
     - navigation.expand
@@ -22,6 +23,8 @@ plugins:
   - search
 
 extra:
+  search:
+    language: 'jp'
   analytics:
     provider: google
     property: UA-133165196-1
