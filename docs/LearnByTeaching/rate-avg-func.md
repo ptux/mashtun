@@ -7,7 +7,7 @@ tags:
 
 CPUのsystemモードの使用率をstep by stepで、下記のデモン環境を用いて検証した。
 
-https://bit.ly/3uXhUrB
+https://bit.ly/374yBtd
 
 こちらのデモン環境をアクセスすると、リアルに値を確認できる。
 
