@@ -20,6 +20,7 @@ theme:
 plugins:
   - tags:
       tags_file: tags.md
+  - search
 
 extra:
   search:
