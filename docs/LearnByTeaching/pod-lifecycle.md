@@ -1,3 +1,8 @@
+---
+tags:
+  - k8s
+---
+
 # Observing Kubernetes Pod Lifecycle
 ---
 

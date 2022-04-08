@@ -31,6 +31,10 @@ extra:
       link: https://www.linkedin.com/in/ptux/
   disqus: mashtun-1
 
+plugins:
+  - tags:
+      tags_file: tags.md
+
 markdown_extensions:
   - toc:
       permalink: true
@@ -54,6 +58,7 @@ nav:
       - "Artifacts/StreamlineOnboarding/time to first commit.md"
 - LearnByTeaching:
   - "LearnByTeaching/pod-lifecycle.md"
+  - "LearnByTeaching/rate-avg-func.md"
 - Programming:
   - "Programming/READEME.md"
 - SoftSkills:
