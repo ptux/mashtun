@@ -16,9 +16,11 @@ theme:
   features:
     - navigation.tabs
     - navigation.expand
-  plugins:
-    - tags:
-        tags_file: tags.md
+
+plugins:
+  - tags:
+      tags_file: tags.md
+
 extra:
   search:
     language: 'jp'
@@ -33,8 +35,6 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/ptux/
   disqus: mashtun-1
-
-
 
 markdown_extensions:
   - toc:
