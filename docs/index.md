@@ -1,6 +1,7 @@
 # About me
 
 The site is still WORKING IN PROGRESS.
+2023/06/25
 
 ```plantuml
 @startuml
