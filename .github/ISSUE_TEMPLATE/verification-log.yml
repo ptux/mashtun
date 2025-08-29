@@ -1,0 +1,58 @@
+name: "検証ログ (Verification Report)"
+description: "OpenShift / Kubernetes の検証結果を整理して記録する"
+title: "[検証] <タイトルを入力してください>"
+labels: ["verification", "technical-log"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🧪 **検証ログテンプレート**
+        - 再現性ある手順と結果を残すために記入してください
+        - 失敗事例も必ず書き残すとチーム共有に役立ちます
+
+  - type: input
+    id: environment
+    attributes:
+      label: 環境情報
+      description: "例: OCP 4.15 / OCPV 4.15.0 / Worker 3台, StorageClass=ontap-nas"
+      placeholder: "環境を入力"
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: 検証目的
+      description: "なぜこの検証を行ったのか"
+      placeholder: "例: NSX-T のマイクロセグメンテーションを MultiNetworkPolicy で代替できるか確認"
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 実施手順
+      description: "実行したコマンドや適用した YAML を記録"
+      placeholder: |
+        1. oc apply -f nncp.yaml
+        2. oc apply -f nad.yaml
+        3. oc create -f vm.yaml
+
+  - type: textarea
+    id: results
+    attributes:
+      label: 検証結果
+      description: "実際に観察された結果 (成功/失敗の詳細)"
+      placeholder: "例: VM が NAD に接続できず、CNI エラー発生。ovs-vsctl show にもtapが見えなかった"
+
+  - type: textarea
+    id: analysis
+    attributes:
+      label: 考察・原因分析
+      description: "観察された挙動から考えられる原因や追加調査ポイント"
+      placeholder: "例: bridge mapping が誤っている可能性が高い"
+
+  - type: textarea
+    id: next
+    attributes:
+      label: Next Action
+      description: "次に取るべき対応や改善策"
+      placeholder: |
+        - NAD の physicalNetworkName を修正
+        - tcpdump でパケット観測予定
